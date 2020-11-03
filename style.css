@@ -1,0 +1,32 @@
+h1{color:royalblue; 
+background-color: #2d974b;}
+.container {
+    display : flex;
+    flex-wrap : wrap;
+    background-color: rgb(162, 189, 45);
+    border:solid;
+    border-color: rgb(236, 8, 149);
+}
+.header *{
+    align-self: center;
+    justify-content: space-between;
+    justify-items: center;
+    border:solid;
+}
+.item{
+    padding: 20px;
+    border: solid;
+    margin-top: 40px;
+    opacity: 1;
+}
+a:link{color:red}
+a:visited{color: green;}
+
+.item:hover a img{
+    opacity:0.5;
+}
+.item:hover{
+    opacity: 1;
+}
+/*.item1 p{
+    color: crimson;
